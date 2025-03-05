@@ -33,5 +33,5 @@ Setup environment, this will install all dependencies as well as the package its
 ```bash
 python -m venv venv
 . venv/bin/activate
-pip installe -e .
+pip install -e .
 ```
