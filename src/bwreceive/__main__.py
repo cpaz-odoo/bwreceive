@@ -41,6 +41,11 @@ def main():
         help="example: bwsend://<send-url>?<send-password>",
     )
 
+    if len(sys.argv) == 1:
+        args_parser.print_help()
+        sys.exit(0)
+
+
     args = args_parser.parse_args()
 
     logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.getLevelName(args.log))
