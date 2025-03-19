@@ -1,7 +1,8 @@
 Package: bwreceive
 Version: 0.1.1
 Maintainer: Corentin `nado` Pazdera (cpaz@odoo.com, nado@troglodyte.be)
-Depends: python3-zenipy, bitwarden-cli
+Depends: python3-zenipy
+Recommends: bitwarden-cli
 Architecture: all
 Homepage: https://github.com/cpaz-odoo/bwreceive
 Description: Wrapper around bw-cli to display bitwarden send password from a custom bwsend:// url
